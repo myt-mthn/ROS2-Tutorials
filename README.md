@@ -8,7 +8,7 @@ Covers everything from basic concepts to advanced topics, including integration 
 ## Table of Contents
 
 ### Days 1 - 10: Basics
-- [DAY01 – Introduction & Setup](DAY01/README.md)
+- [DAY01 – Introduction & Setup](DAY1)
 - [DAY02 – Nodes & Packages](DAY02/README.md)
 - [DAY03 – Topics & Messaging](DAY03/README.md)
 - [DAY04 – Services](DAY04/README.md)
