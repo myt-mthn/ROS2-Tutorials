@@ -70,7 +70,7 @@ Covers everything from basic concepts to advanced topics, including integration 
 
 - ROS2 installed (Foxy/Galactic/Humble)
 - Linux environment (Ubuntu recommended)
-- Python and/or C++ knowledge
+- Python knowledge
 - (Optional) Gazebo, RViz, or hardware for testing
 
 ---
