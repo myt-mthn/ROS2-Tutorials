@@ -31,10 +31,6 @@ By the end of this session, you will be able to:
 - Echo a topic with `ros2 topic echo`  
 - List active topics with `ros2 topic list`  
 
-### ✅ Understand Node Discovery and Communication  
-- How publishers and subscribers find each other  
-- Basic QoS idea (no deep theory)  
-
 ---
 
 Everything is described in detail inside the PDF.  
