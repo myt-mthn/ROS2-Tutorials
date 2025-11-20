@@ -3,7 +3,7 @@
 This folder contains the material for **Day 03** of the ROS2 Tutorials.
 
 📄 **Read the full Day-03 Manual (PDF):**  
-[Click here to open the PDF](/M4-Introspection&RQT.pdf)
+[Click here to open the PDF](M4-Introspection&RQT.pdf)
 
 ---
 
