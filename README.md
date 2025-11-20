@@ -12,14 +12,14 @@ Covers everything from basic concepts to advanced topics, including integration 
 ### Days 1 - 10: Basics
 - [DAY01 – Fundamentals, Workspaces, Packages and Nodes](DAY-01)
 - [DAY02 – Publishers and Subscribers](DAY-02)
-- [DAY03 – Topics & Messaging](DAY03/README.md)
-- [DAY04 – Services](DAY04/README.md)
-- [DAY05 – Actions](DAY05/README.md)
-- [DAY06 – Parameters](DAY06/README.md)
-- [DAY07 – Launch Files](DAY07/README.md)
-- [DAY08 – Timers & Callbacks](DAY08/README.md)
-- [DAY09 – ROS2 CLI Tools](DAY09/README.md)
-- [DAY10 – Logging & Debugging](DAY10/README.md)
+- [DAY03 – Node Introspection & RQT](DAY-03)
+- [DAY04 – Services](DAY-04)
+- [DAY05 – Actions](DAY-05)
+- [DAY06 – Parameters](DAY-06)
+- [DAY07 – Launch Files](DAY-07)
+- [DAY08 – Timers & Callbacks](DAY-08/)
+- [DAY09 – ROS2 CLI Tools](DAY-09)
+- [DAY10 – Logging & Debugging](DAY-10)
 
 ### Days 11 - 20: Intermediate Concepts
 - [DAY11 – Lifecycle Nodes](DAY11/README.md)
