@@ -3,8 +3,8 @@
 This folder contains the material for **Day 04** of the ROS2 Tutorials.
 
 📄 **Read the full Day-04 Manuals (PDFs):**  
-- [Manual 1 – Services Fundamentals & Setup](M4-Services_Fundamentals.pdf)  
-- [Manual 2 – Step-by-Step Code & Execution](M5-Services_Implementation.pdf)
+- [Manual 1 – Services Fundamentals & Setup](M5-Services_Fundamentals.pdf)  
+- [Manual 2 – Step-by-Step Code & Execution](M6-Services_Implementation.pdf)
 
 ---
 
