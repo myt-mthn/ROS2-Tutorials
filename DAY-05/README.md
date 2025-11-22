@@ -4,7 +4,7 @@ This folder contains the material for **Day 05** of the ROS2 Tutorials.
 
 📄 **Read the full Day-05 Manuals (PDFs):**  
 - [Manual 1 – Actions Fundamentals & Setup](M6-Actions_Fundamentals.pdf)  
-- [Manual 2 – Step-by-Step Code & Execution](M6-Actions_Implementation.pdf)
+- [Manual 2 – Step-by-Step Code & Execution](M7-Actions_Implementation.pdf)
 
 ---
 
