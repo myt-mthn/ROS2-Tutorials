@@ -1,0 +1,31 @@
+# =====================================
+# GLOBAL ROS2 IGNORE FOR ALL DAYS
+# =====================================
+
+# Build system outputs
+**/build/
+**/install/
+**/log/
+**/.colcon/
+**/.colcon_cache/
+
+# Python cache
+**/__pycache__/
+*.pyc
+*.pyo
+
+# CMake
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+
+# IDE files
+.vscode/
+.idea/
+
+# Misc
+.DS_Store
+Thumbs.db
+*.swp
+*~
