@@ -8,43 +8,73 @@ This folder contains the material for **Day 04** of the ROS2 Tutorials.
 
 ---
 
-## 🚀 What You Will Learn in Day 04
+Day 04 focuses on **ROS2 Services** – creating, understanding, and using service servers and clients.  
+By the end of this session, you will be able to:
 
-Day 04 focuses on **ROS2 Services** and provides hands-on experience with **request-response communication**. By the end of this session, you will be able to:
+### ✅ Understand ROS2 Services  
+- Difference between topics and services  
+- Synchronous request/response communication  
 
-### ✅ Understand ROS2 Services (Manual 1)  
-- Difference between **Topics** and **Services**  
-- Concept of **synchronous request-response** communication  
-- Structure of a `.srv` file (request & response fields)  
-- How to create a ROS2 package for services  
-- Build and prepare the package for Python service nodes  
+### ✅ Create a ROS2 Interface Package (`service_pkg`)  
+- Define `.srv` files  
+- Understand `CMakeLists.txt` for services  
+- Configure `package.xml` for service generation  
 
-### ✅ Create a Service Server Node (Manual 2)  
-- Write a Python ROS2 server node  
-- Use `create_service` to define service type and callback  
-- Handle incoming requests and send responses  
-- Log received commands in the terminal  
+### ✅ Create a Python Node Package (`my_py_pkg`)  
+- Write a service server node  
+- Write a service client node  
+- Import `.srv` interfaces from another package  
 
-### ✅ Create a Service Client Node (Manual 2)  
-- Write a Python ROS2 client node  
-- Use `create_client` to connect to a service  
-- Send requests and wait for responses  
-- Print server responses in the terminal  
+### ✅ Build and Run the Workspace  
+- Correct build order for interface and Python packages  
+- Source the workspace and run nodes  
 
-### ✅ Run and Test Services  
-- Start the server node with `ros2 run`  
-- Start the client node with `ros2 run`  
-- Observe request-response communication in action  
-- Test multiple commands dynamically  
-
-### ✅ Concepts Covered  
-- Request & Response structure with `.srv` files  
-- Synchronous vs asynchronous communication  
-- How services differ from topics  
-- Step-by-step beginner-friendly code execution  
+### ✅ Test Services  
+- Send requests from client and receive responses  
+- Debug common service issues  
+- Understand server/client logging  
 
 ---
 
-Everything is described in detail inside the PDFs.  
-Feel free to open the PDFs and follow step-by-step.
+### 💡 Quick Start
 
+To run and test the ROS2 services:
+
+1. Clone the `ros2_ws` folder from this repository:  
+
+```bash
+git clone <this-repo-link> ~/ros2_ws
+```
+
+2. Build the interface package first:
+
+```bash
+cd ~/ros2_ws
+colcon build --packages-select service_pkg
+source install/setup.bash
+```
+
+3. Then build the Python node package:
+
+```bash
+colcon build --packages-select my_py_pkg
+source install/setup.bash
+```
+
+4. Open two terminals:
+
+  Terminal 1 – run server:
+```bash
+ros2 run my_py_pkg srv_server
+```
+
+  Terminal 2 – run client:
+```bash
+ros2 run my_py_pkg srv_client
+```
+---    
+
+Everything is described in detail inside the **Manual 1** and **Manual 2** PDFs.  
+Follow the PDFs step-by-step for a complete beginner-friendly ROS2 service experience.    
+
+---
