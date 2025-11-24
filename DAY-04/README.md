@@ -38,30 +38,34 @@ By the end of this session, you will be able to:
 
 ### 💡 Quick Start
 
-To run and test the ROS2 services:
+To run and test the ROS2 services for Day 04:
 
-1. Clone the `ros2_ws` folder from this repository:  
+1. Clone the repository:
 
 ```bash
-git clone <this-repo-link> ~/ros2_ws
+git clone https://github.com/myt-mthn/ROS2-Tutorials.git
+```
+2. Navigate to the Day 04 workspace:
+
+```bash
+cd ROS2-Tutorials/DAY-04/ros2_ws
 ```
 
-2. Build the interface package first:
+3. Build the interface package first:
 
 ```bash
-cd ~/ros2_ws
 colcon build --packages-select service_pkg
 source install/setup.bash
 ```
 
-3. Then build the Python node package:
+4. Then build the Python node package:
 
 ```bash
 colcon build --packages-select my_py_pkg
 source install/setup.bash
 ```
 
-4. Open two terminals:
+5. Open two terminals:
 
   Terminal 1 – run server:
 ```bash
