@@ -1,4 +1,5 @@
 # ROS2 Tutorials – Day 05
+
 ## ROS2 Actions – Long-Running Tasks with Feedback
 
 This folder contains the complete material for **Day 05** of the ROS2 Tutorials.
@@ -80,5 +81,5 @@ You should see:
 - The server publishes periodic feedback
 - The server returns the final result
 
-Everything is described in detail inside the Manual 1 and Manual 2 PDFs.
+Everything is described in detail inside the Manual 1 and Manual 2 PDFs.  
 Follow the PDFs step-by-step for a complete beginner-friendly ROS2 service experience.
