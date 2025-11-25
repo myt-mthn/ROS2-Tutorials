@@ -1,5 +1,6 @@
 # ROS2 Tutorials – Day 05
-## ROS2 Actions – Long-Running Tasks with Feedback
+## ROS2 Actions – Long-Running Tasks with Feedback    
+
 
 This folder contains the complete material for **Day 05** of the ROS2 Tutorials.
 
@@ -41,3 +42,50 @@ This folder contains the complete material for **Day 05** of the ROS2 Tutorials.
 
 The repository already contains a `ros2_ws` folder including the action interface and python nodes:
 
+---
+
+## 🚀 Quick Start
+
+> **Note:** clone the repo root — the day workspaces are inside the repo under `DAY-05/ros2_ws`.
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/myt-mthn/ROS2-Tutorials.git
+```
+
+2. Change into the Day-05 workspace:
+```bash
+cd ROS2-Tutorials/DAY-05/ros2_ws
+```
+
+3. Build the action interface package first:
+```bash
+colcon build --packages-select action_pkg
+source install/setup.bash
+```
+
+4. Then build the Python action nodes:
+```bash
+colcon build --packages-select my_py_pkg
+source install/setup.bash
+```
+5. Run the Action Nodes
+
+Terminal 1 – start the Action Server
+```bash
+ros2 run my_py_pkg action_server
+```
+
+Terminal 2 – start the Action Client
+```bash
+ros2 run my_py_pkg action_client
+```
+
+You should see:
+
+The client sends a goal
+
+The server publishes periodic feedback
+
+The server returns the final result
