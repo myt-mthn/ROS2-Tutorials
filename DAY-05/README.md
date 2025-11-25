@@ -1,14 +1,11 @@
 # ROS2 Tutorials – Day 05
 ## ROS2 Actions – Long-Running Tasks with Feedback
 
----
-
 This folder contains the complete material for **Day 05** of the ROS2 Tutorials.
 
 **PDF Manuals:**  
 - **M7 – ROS2 Actions Fundamentals** [(M7-Actions_Fundamentals.pdf)]
 - **M8 – Action Server & Client Implementation** [(M8-Actions_Implementation.pdf)]
-
 ---
 
 ## 📌 What You Will Learn Today
@@ -36,12 +33,6 @@ This folder contains the complete material for **Day 05** of the ROS2 Tutorials.
 - Use `colcon` with package selection  
 - How to `source` the workspace  
 - How to run both server and client
-
----
-
-## 📂 Project Structure Provided
-
-The repository already contains a `ros2_ws` folder including the action interface and python nodes:
 
 ---
 
@@ -85,8 +76,9 @@ ros2 run my_py_pkg action_client
 
 You should see:
 
-The client sends a goal
+- The client sends a goal
+- The server publishes periodic feedback
+- The server returns the final result
 
-The server publishes periodic feedback
-
-The server returns the final result
+Everything is described in detail inside the Manual 1 and Manual 2 PDFs.
+Follow the PDFs step-by-step for a complete beginner-friendly ROS2 service experience.
