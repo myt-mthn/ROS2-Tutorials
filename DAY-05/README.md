@@ -1,12 +1,12 @@
 # ROS2 Tutorials – Day 05
 
-## ROS2 Actions – Long-Running Tasks with Feedback
+#### ROS2 Actions – Long-Running Tasks with Feedback
 
 This folder contains the complete material for **Day 05** of the ROS2 Tutorials.
 
 **PDF Manuals:**  
-- **M7 – ROS2 Actions Fundamentals** (M7-Actions_Fundamentals.pdf)
-- **M8 – Action Server & Client Implementation** (M8-Actions_Implementation.pdf)
+- [**M7 – ROS2 Actions Fundamentals**](M7-Actions_Fundamentals.pdf)
+- [**M8 – Action Server & Client Implementation**](M8-Actions_Implementation.pdf)
 ---
 
 ## 📌 What You Will Learn Today
@@ -37,7 +37,7 @@ This folder contains the complete material for **Day 05** of the ROS2 Tutorials.
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start    
 
 > **Note:** clone the repo root — the day workspaces are inside the repo under `DAY-05/ros2_ws`.
 
