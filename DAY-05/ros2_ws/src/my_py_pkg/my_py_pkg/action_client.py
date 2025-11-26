@@ -40,3 +40,6 @@ def main(args=None):
     print(f"Final Result: {result.sequence}")
     node.destroy_node()
     rclpy.shutdown()
+
+if __name__ == "__main__":
+    main()
