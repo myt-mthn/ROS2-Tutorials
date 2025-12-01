@@ -4,7 +4,6 @@
 
 A comprehensive 45-day step-by-step ROS2 tutorial series.  
 Covers everything from basic concepts to advanced topics, including integration with hardware, simulation, and real-world projects.
-
 ---
 
 ## Table of Contents
