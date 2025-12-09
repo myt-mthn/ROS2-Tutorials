@@ -6,7 +6,7 @@ This folder contains the complete material for **Day 06** of the ROS2 Tutorials.
 
 **PDF Manuals:**  
 - [**M9 – ROS2 Parameters Fundamentals**](M9-Parameters_Fundamentals.pdf)  
-- [**M10 – Parameter Server & Client Implementation**](M10-Parameters_Implementation.pdf)
+- [**M10 – Parameters Implementation**](M10-Parameters_Implementation.pdf)
 
 ---
 
