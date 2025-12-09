@@ -104,22 +104,12 @@ ros2 run my_py_pkg param_node --ros-args --params-file src/my_py_pkg/config/para
 
 ---
 
-### **7. Run the Parameter Client**
+### **7. Run the Parameter Node**
 
-Terminal 1:
+Terminal:
 ```bash
 ros2 run my_py_pkg param_node
 ```
-
-Terminal 2:
-```bash
-ros2 run my_py_pkg param_client
-```
-
-The client will:
-- Request parameters  
-- Update parameters  
-- Print returned values  
 
 ---
 
