@@ -13,7 +13,7 @@ This folder contains the complete material for **Day 05** of the ROS2 Tutorials.
 
 ### ✅ Understand ROS2 Actions
 - Why actions are used instead of services  
-- Difference between **topics**, **services**, and **actions**  
+- Difference between **topics**, **services**, and **actions** 
 - Action communication workflow: **Goal → Feedback → Result**
 
 ### ✅ Create a ROS2 Action Interface Package (`action_pkg`)
