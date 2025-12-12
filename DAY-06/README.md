@@ -7,7 +7,7 @@ The manuals guide you from basic understanding to practical implementation using
 
 ---
 
-> Note: The `ros2_ws` workspace included under `DAY-06/` corresponds to **Manual 2**, enabling quick build and run of the examples. :contentReference[oaicite:1]{index=1}
+> Note: The `ros2_ws` workspace included under `DAY-06/` corresponds to **Manual 2**, enabling quick build and run of the example
 
 ---
 
