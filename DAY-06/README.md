@@ -7,32 +7,6 @@ The manuals guide you from basic understanding to practical implementation using
 
 ---
 
-## 🗂 Repository Structure
-
-ROS2-Tutorials/
-│
-├── DAY-06/
-│ ├── Manual_1_Parameter_Fundamentals.pdf
-│ ├── Manual_2_Parameter_Implementation.pdf
-│ ├── Manual_3_Parameter_Callback.pdf
-│ ├── Manual_4_Parameters_Using_YAML.pdf
-│ └── ros2_ws/
-│ ├── src/
-│ │ └── param_pkg/
-│ │ ├── param_pkg/
-│ │ │ ├── init.py
-│ │ │ ├── number_node.py
-│ │ │ ├── number_callback_node.py
-│ │ │ └── yaml_param_node.py
-│ │ ├── package.xml
-│ │ ├── setup.py
-│ │ └── setup.cfg
-│ └── params.yaml
-│
-└── README.md
-
-yaml
-Copy code
 > Note: The `ros2_ws` workspace included under `DAY-06/` corresponds to **Manual 2**, enabling quick build and run of the examples. :contentReference[oaicite:1]{index=1}
 
 ---
@@ -87,7 +61,7 @@ ros2 param set /number_param_node number_param 99
 ```
 The running node from the first terminal should show the updated value immediately.
 
-🧠 Notes  
+##🧠 Notes  
 
 Manuals 1, 3, and 4 contain step-by-step explanations and code walkthroughs — refer them for detailed instructions.
 
