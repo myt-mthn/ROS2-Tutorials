@@ -59,9 +59,10 @@ Open another terminal and run:
 ```bash
 ros2 param set /number_param_node number_param 99
 ```
-The running node from the first terminal should show the updated value immediately.
+The running node from the first terminal should show the updated value immediately.  
 
-##🧠 Notes  
+
+## 🧠 Notes  
 
 Manuals 1, 3, and 4 contain step-by-step explanations and code walkthroughs — refer them for detailed instructions.
 
