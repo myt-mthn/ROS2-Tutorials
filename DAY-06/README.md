@@ -85,5 +85,5 @@ ros2 run param_pkg param_node
 
 ---
 
-Everything is described in detail inside the **Manual 1** and **Manual 2** PDFs.  
+Everything is described in detail inside the **Manual 1**, **Manual 2** and **Manual 3** PDFs.  
 Follow them step-by-step for a complete beginner-friendly ROS2 parameter experience.
