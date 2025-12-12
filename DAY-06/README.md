@@ -1,89 +1,97 @@
-# ROS2 Tutorials – Day 06
+# ROS2 Tutorials – Day 06: Parameters
 
-#### ROS2 Parameters – Runtime Configuration for Nodes
+This repository contains materials for **Day 06 – Parameters** of the ROS2 Tutorials series.  
+Here you will find **four manuals** covering parameters in ROS 2, and a **workspace for quick testing** of the implementation examples.
 
-This folder contains the complete material for **Day 06** of the ROS2 Tutorials.
-
-**PDF Manuals:**  
-- [**M9 – ROS2 Parameters Fundamentals**](M9-Parameters_Fundamentals.pdf)  
-- [**M10 – Parameters Implementation**](M10-Parameters_Implementation.pdf)
-- [**M11 – Parameters Implementation with Callback**](M11-Parameters_Implementation-withCallback.pdf)
+The manuals guide you from basic understanding to practical implementation using Python nodes.
 
 ---
 
+## 🗂 Repository Structure
+
+ROS2-Tutorials/
+│
+├── DAY-06/
+│ ├── Manual_1_Parameter_Fundamentals.pdf
+│ ├── Manual_2_Parameter_Implementation.pdf
+│ ├── Manual_3_Parameter_Callback.pdf
+│ ├── Manual_4_Parameters_Using_YAML.pdf
+│ └── ros2_ws/
+│ ├── src/
+│ │ └── param_pkg/
+│ │ ├── param_pkg/
+│ │ │ ├── init.py
+│ │ │ ├── number_node.py
+│ │ │ ├── number_callback_node.py
+│ │ │ └── yaml_param_node.py
+│ │ ├── package.xml
+│ │ ├── setup.py
+│ │ └── setup.cfg
+│ └── params.yaml
+│
+└── README.md
+
+yaml
+Copy code
+> Note: The `ros2_ws` workspace included under `DAY-06/` corresponds to **Manual 2**, enabling quick build and run of the examples. :contentReference[oaicite:1]{index=1}
+
 ---
 
-## 🚀 Quick Start
+## 📄 Manuals
 
-> **Note:** clone the repo root — the day workspaces are inside the repo under `DAY-06/ros2_ws`.
+| Manual | Description |
+|--------|-------------|
+| **Manual 1** | Parameter Fundamentals |
+| **Manual 2** | Parameter Implementation (Publishing a Number) |
+| **Manual 3** | Parameter Callback (Dynamic Updates) |
+| **Manual 4** | Parameters Using YAML |
+> All manuals are in PDF format. Download and follow them in sequence for best understanding. :contentReference[oaicite:2]{index=2}
 
 ---
 
-### **1. Clone the Repository**
+## 🚀 Quick Start – Run the Example Workspace (Manual 2)
+
+### 1. Open a new terminal  
+Navigate into the example workspace:
+
 ```bash
-git clone https://github.com/myt-mthn/ROS2-Tutorials.git
+cd DAY-06/ros2_ws
 ```
-
----
-
-### **2. Enter the Day-06 Workspace**
+2. Build the workspace
 ```bash
-cd ROS2-Tutorials/DAY-06/ros2_ws
+colcon build
 ```
-
----
-
-### **3. Build the Package**
+3. Source the workspace
 ```bash
-colcon build --packages-select param_pkg
 source install/setup.bash
 ```
+▶ Manual 2 Example – Publish a Number Parameter
+Run the basic parameter node
 
----
-
-### **4. Run the Parameter Node (default parameters)**
 ```bash
 ros2 run param_pkg param_node
 ```
+The node should log the current value of the parameter and publish it continuously.
 
-You will see:
-- Declared parameters  
-- Printed values in the terminal  
+View the published topic
+In a separate terminal (source the workspace first):
 
----
-
-### **5. Override Parameter Values from CLI**
 ```bash
-ros2 run param_pkg param_node --ros-args -p number_paaram:=45
+ros2 topic echo /number
 ```
+Change the parameter dynamically
+Open another terminal and run:
 
----
-
-### **6. Use a YAML Parameter File**
-
-Example YAML (in `src/param_pkg/config/params.yaml`):
-
-```yaml
-param_pkg:
-  ros__parameters:
-    number_param:54
-```
-
-Run with YAML:
 ```bash
-ros2 run param_pkg param_node --ros-args --params-file src/param_pkg/config/params.yaml
+ros2 param set /number_param_node number_param 99
 ```
+The running node from the first terminal should show the updated value immediately.
 
----
+🧠 Notes  
 
-### **7. Run the Parameter Node**
+Manuals 1, 3, and 4 contain step-by-step explanations and code walkthroughs — refer them for detailed instructions.
 
-Terminal:
-```bash
-ros2 run param_pkg param_node
-```
+Manual 2 includes a ready workspace so you can build and test immediately without creating a package from scratch.
 
----
+Launch file usage will be covered in later days; here we focus on command-line and YAML parameter usage.
 
-Everything is described in detail inside the **Manual 1**, **Manual 2** and **Manual 3** PDFs.  
-Follow them step-by-step for a complete beginner-friendly ROS2 parameter experience.
