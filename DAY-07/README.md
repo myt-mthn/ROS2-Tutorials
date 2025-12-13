@@ -11,6 +11,21 @@ This is a **critical milestone** because real robots and production systems are 
 
 ---
 
+## 📌 What We Covered (Day 07)
+
+In this day, we worked with:
+
+- ROS 2 Python launch files (`.launch.py`)
+- Launching **multiple nodes with one command**
+- Publisher–Subscriber execution via launch files
+- Passing **parameters through launch files**
+- Verifying running systems using **ROS 2 CLI**
+- Understanding how launch files integrate with:
+  - `setup.py`
+  - `colcon build`
+
+---
+
 ## 📘 Full Manual (Detailed Explanation)
 
 The complete step-by-step explanation for Day 07 is available here:
@@ -28,22 +43,7 @@ This README is intentionally kept **execution-focused**.
 
 ---
 
-This directory provides a **ready-made ROS 2 workspace (`ros2_ws`)** for quick testing and learning.
-
----
-
-## 📌 What We Covered (Day 07)
-
-In this day, we worked with:
-
-- ROS 2 Python launch files (`.launch.py`)
-- Launching **multiple nodes with one command**
-- Publisher–Subscriber execution via launch files
-- Passing **parameters through launch files**
-- Verifying running systems using **ROS 2 CLI**
-- Understanding how launch files integrate with:
-  - `setup.py`
-  - `colcon build`
+### This directory provides a **ready-made ROS 2 workspace (`ros2_ws`)** for quick testing and learning.
 
 ---
 
