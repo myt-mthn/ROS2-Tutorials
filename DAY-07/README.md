@@ -1,7 +1,5 @@
 # Day 07 – ROS 2 Launch Files
 
-## 📌 What Is Day 07 About?
-
 **Day 07 focuses on ROS 2 Launch Files**, which are used to start and manage **multiple ROS 2 nodes using a single command**.
 
 Instead of running each node manually in separate terminals, this day introduces how to:
@@ -17,8 +15,7 @@ This is a **critical milestone** because real robots and production systems are 
 
 The complete step-by-step explanation for Day 07 is available here:
 
-🔗 **Day 07 – Launch Files Manual**  
-[Launch Files - Manual](M13 - Launch Files.pdf)
+[Launch Files - Manual](M13-Launch_Files.pdf)
 
 > Refer to the manual for:
 > - Launch file fundamentals  
