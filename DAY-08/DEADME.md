@@ -5,7 +5,7 @@ Day 08 is focused on **ROS 2 Command Line Interface (CLI) tools**, which are ess
 
 ---
 
-## 📘 What Day 08 Is About
+## 📘 What Day 08 Is About ?
 
 In this day, you learn how to **observe and debug ROS 2 systems from the outside** using CLI tools.  
 Instead of guessing what is happening inside nodes, you will learn to *inspect the ROS graph, topics, messages, and parameters in real time*.
