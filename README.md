@@ -17,9 +17,9 @@ Covers everything from basic concepts to advanced topics, including integration 
 - [DAY05 – Actions](DAY-05)
 - [DAY06 – Parameters](DAY-06)
 - [DAY07 – Launch Files](DAY-07)
-- [DAY08 – Timers & Callbacks](DAY-08/)
-- [DAY09 – ROS2 CLI Tools](DAY-09)
-- [DAY10 – Logging & Debugging](DAY-10)
+- [DAY08 – ROS2 CLI Tools](DAY-08)
+- [DAY09 – Logging & Debugging](DAY-09)
+- [DAY10 – ](DAY-10)
 
 ### Days 11 - 20: Intermediate Concepts
 - [DAY11 – Lifecycle Nodes](DAY11/README.md)
