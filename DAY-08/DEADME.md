@@ -1,6 +1,5 @@
 # ROS2 Tutorials – Day 08  
-**ROS 2 Command Line Interface (CLI) tools**  
----  
+**Command Line Interface (CLI) tools**
 
 Day 08 is focused on **ROS 2 Command Line Interface (CLI) tools**, which are essential for inspecting, debugging, and understanding a running ROS 2 system **without modifying code**.
 
